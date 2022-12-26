@@ -1,0 +1,12 @@
+; helloWorld.asm
+hello                            = $C05E
+LoadPalettes                     = $C03D
+string                           = $E020
+Forever                          = $C08A
+palette                          = $E000
+LoadPalettesLoop                 = $C04C
+vblankwait1                      = $C014
+vblankwait2                      = $C038
+clrmem                           = $C019
+RESET                            = $C000
+NMI                              = $C08D
