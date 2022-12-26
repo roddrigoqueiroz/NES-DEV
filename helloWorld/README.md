@@ -24,6 +24,10 @@ I placed all the original source code inside this folder, so you can easily see 
 
 The "mario.chr" file contains the tileset of the Super Mario Bros. 1 that I used to display the string in the screen. In order to visualize it, download a tile editor, like [Tile Molester](https://www.romhacking.net/utilities/109/) or [Tile Layer Pro](https://www.romhacking.net/utilities/108/). If you want, using those tools you can edit SMB sprites and make a "new" game.
 
+## File - `alphabet.csv`
+
+This file contains a relationship between ascii characters and the tiles in SMB ROM. I used it to write the `string` label in the `helloWorld.asm` file. In the source code, I only added one tile that isn't in the csv, that's basically a blank space (code 36).
+
 ## File - `helloWorld.fns`
 
 This file only contains the NESASM substitutions of labels to real adresses used to create the ROM correctly.
