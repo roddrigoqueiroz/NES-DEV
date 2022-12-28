@@ -1,0 +1,20 @@
+; movingMario.asm
+LoadSpritesLoop                  = $C059
+LoadPalettes                     = $C03D
+LatchController                  = $C07B
+Forever                          = $C06E
+palette                          = $E000
+ReadLeftDone                     = $C0D5
+LoadPalettesLoop                 = $C04C
+ReadRightDone                    = $C0BA
+LoadSprites                      = $C057
+StoreA                           = $C097
+MoveMarioBack                    = $C0C3
+vblankwait1                      = $C014
+vblankwait2                      = $C038
+clrmem                           = $C019
+RESET                            = $C000
+MoveMarioFront                   = $C0A8
+sprites                          = $E020
+NMI                              = $C071
+ReadController                   = $C08A
