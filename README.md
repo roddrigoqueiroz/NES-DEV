@@ -5,7 +5,7 @@ The goal of this project is to share my evolution, learning of the NES programmi
 - The folders' names tell what that project does
 - Every project has it's own explanation of what it does and a few pictures to demonstrate it
 - The .asm source code contains comments explaning certain pieces of code to help me and other people to understand it
-- The code I wrote **does not** intend to run on a real NES
+- The code I wrote **does not** intend to run on a real NES. It does not have everything needed to run on a real console
 
 To learn how to code in NES assembly, I'm mainly using the [Nerdy Nights seires](https://nerdy-nights.nes.science/#main_tutorial) and reading the [Nesdev wiki](https://www.nesdev.org/wiki/Nesdev_Wiki) to better understand how the NES hardware works.
 
